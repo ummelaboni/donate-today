@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+.Back {
+    height: 700px;
+    width: 100%;
+}
+
+/* .background {
+    background-color: black transparent;
+} */
+
+.Header {
+    font-size: 80px;
+    font-weight: 600px;
+    text-align: center;
+    color: rgb(238, 241, 241);
+    margin-top: -600px;
+}
+
+.headpara {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(209, 218, 27);
+}
+
+.Head1 {
+    margin-bottom: 10px;
+}
+
+.location {
+    align-items: center;
+    margin-left: 45%;
+    padding-top: 23px;
+
+}
+
+.button1 {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.second-part {
+    margin-top: 300px;
+    text-align: center;
+}
+
+#head2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+#today {
+    text-decoration: underline;
+}
+
+#head2para {
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+}
