@@ -71,13 +71,13 @@ body {
 
 .money {
     display: flex;
-    margin-left: 360px;
+    margin-left: 302px;
 }
 
 .lineitems {
     margin-left: 20px;
-    background-color: rgb(203, 192, 190);
-    padding: 30px 33px;
+    background-color: rgb(245, 238, 236);
+    padding: 25px 45px;
     font-size: 18px;
     font-weight: 800;
     border-radius: 5px;
@@ -88,13 +88,55 @@ body {
     color: tomato;
     margin-left: 20px;
     background-color: rgb(253, 220, 215);
-    padding: 30px 33px;
+    padding: 25px 45px;
     font-size: 18px;
     font-weight: 800;
     border: 3px solid rgb(254, 86, 56);
     border-radius: 5px;
+    text-align: center;
 }
 
 .line {
-    width: 50%;
+    /* margin-left: 45%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.field {
+    height: 40px;
+    width: 200px;
+    margin-left: 42%;
+    outline: none;
+}
+
+.line-2 {
+    width: 58%;
+    margin-left: 20%;
+}
+
+.secdonation {
+    margin-top: 20px;
+}
+
+.Donate {
+    margin-left: 43.4%;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: tomato;
+}
+
+#plan {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+#plan2 {
+    text-align: center;
+    color: rgb(112, 111, 111);
+    margin-top: -15px;
 }
