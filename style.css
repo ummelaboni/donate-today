@@ -77,11 +77,15 @@ body {
 .lineitems {
     margin-left: 20px;
     background-color: rgb(245, 238, 236);
-    padding: 25px 45px;
+    padding: 25px 40px;
     font-size: 18px;
     font-weight: 800;
     border-radius: 5px;
     color: rgb(61, 60, 60);
+}
+
+.another {
+    padding: 20px 35px;
 }
 
 #highlighted {
@@ -104,14 +108,15 @@ body {
 
 .field {
     height: 40px;
-    width: 200px;
-    margin-left: 42%;
-    outline: none;
+    width: 400px;
+    margin-left: 35%;
+    border: transparent;
 }
 
 .line-2 {
     width: 58%;
     margin-left: 20%;
+    color: gray;
 }
 
 .secdonation {
@@ -143,13 +148,57 @@ body {
 
 .containers {
     display: flex;
+    margin: 40px;
 }
 
-/* .box {
-    height: 15px;
-    width: 15px;
-} */
+.box1 {
+    margin-right: 50px;
+    margin-left: 70px;
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.box2 {
+    margin-right: 50px;
+    margin-left: 70px;
+    padding: 30px;
+    background-color: rgba(170, 237, 237, 0.967);
+    border-radius: 10px;
+}
+
+.box3 {
+    margin-right: 50px;
+    margin-left: 70px;
+    padding: 10px;
+    background-color: rgb(197, 248, 199);
+    border-radius: 10px;
+}
 
 .two {
     margin-left: 15px;
+}
+
+.icon img {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.second img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.head2 {
+    color: gray;
+}
+
+.third {
+    display: flex;
+}
+
+.third img {
+    width: 200px 200px;
 }
