@@ -140,3 +140,16 @@ body {
     color: rgb(112, 111, 111);
     margin-top: -15px;
 }
+
+.containers {
+    display: flex;
+}
+
+/* .box {
+    height: 15px;
+    width: 15px;
+} */
+
+.two {
+    margin-left: 15px;
+}
