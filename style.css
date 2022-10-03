@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0;
+    font-family: 'Abyssinica SIL', serif;
 }
 
 .Back {
@@ -201,4 +202,111 @@ body {
 
 .third img {
     width: 200px 200px;
+}
+
+/* donation area */
+.flexible-container {
+    display: flex;
+    margin: 50px 50px 50px 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-width img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.lives {
+    font-size: 60px;
+}
+
+.donationpara {
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.contribute {
+    margin-top: 40px;
+}
+
+.Link-button {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 20px 30px;
+    color: rgb(245, 242, 242);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* < !-- update area --> */
+
+.update {
+    margin-bottom: -100px;
+}
+
+.final-body-part {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+
+}
+
+.subscribe {
+    display: flex;
+    height: 200px;
+    width: 50%;
+    background-color: antiquewhite;
+    margin-bottom: 200px;
+}
+
+.get-update {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.lorem {
+    margin-top: -50px;
+}
+
+#align1 {
+    margin-left: 28%;
+    margin-top: 65px;
+    font-weight: 700;
+}
+
+#align2 {
+    margin-top: 77px;
+    color: white;
+}
+
+.email {
+    border: transparent;
+    padding: 15px 50px;
+}
+
+.submit {
+    border: transparent;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 12px 30px;
+}
+
+/* footer part */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+}
+
+.humble {
+    font-size: 30px;
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 70px 45%;
 }
