@@ -24,7 +24,7 @@ body {
 .headpara {
     font-size: 20px;
     text-align: center;
-    color: rgb(209, 218, 27);
+    color: rgba(203, 203, 203, 0.412);
 }
 
 .Head1 {
@@ -147,6 +147,8 @@ body {
     margin-top: -15px;
 }
 
+/* card area */
+
 .containers {
     display: flex;
     margin: 40px;
@@ -155,7 +157,7 @@ body {
 .box1 {
     margin-right: 50px;
     margin-left: 70px;
-    padding: 10px;
+    padding: 10px 15px;
     background-color: antiquewhite;
     border-radius: 10px;
 }
@@ -262,6 +264,7 @@ body {
     width: 50%;
     background-color: antiquewhite;
     margin-bottom: 200px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .get-update {
@@ -276,7 +279,6 @@ body {
 #align1 {
     margin-left: 28%;
     margin-top: 65px;
-    font-weight: 700;
 }
 
 #align2 {
@@ -285,8 +287,12 @@ body {
 }
 
 .email {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(187, 185, 185);
     border: transparent;
     padding: 15px 50px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .submit {
@@ -294,6 +300,8 @@ body {
     text-decoration: none;
     background-color: tomato;
     padding: 12px 30px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
 }
 
 /* footer part */
@@ -309,4 +317,11 @@ footer {
     color: tomato;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 70px 45%;
+}
+
+.doit {
+    margin-top: -90px;
+    margin-left: 46%;
+    color: white;
+    font-size: 15px;
 }
